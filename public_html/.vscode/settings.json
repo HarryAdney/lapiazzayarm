@@ -1,3 +1,21 @@
 {
-  "liveServer.settings.port": 3405
+  "liveServer.settings.port": 3405,
+  "cSpell.words": [
+    "alla",
+    "Becca",
+    "Carrozza",
+    "crema",
+    "Crema",
+    "JRAGS",
+    "Novonovello"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "explorerExclude.backup": {}
 }
