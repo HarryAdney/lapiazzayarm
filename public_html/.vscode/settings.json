@@ -1,21 +1,15 @@
 {
-  "liveServer.settings.port": 3405,
-  "cSpell.words": [
-    "alla",
-    "Becca",
-    "Carrozza",
-    "crema",
-    "Crema",
-    "JRAGS",
-    "Novonovello"
-  ],
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true
+  "tinypng.apiKey": "s0613LzFdfTKN0XVqshlGtvJQtMfkjRj",
+  "tinypng.forceOverwrite": false,
+  "tinypng.showProgress": true,
+  "tinypng.compressionCount": true,
+  "files.associations": {
+    "*.webp": "image"
   },
-  "explorerExclude.backup": {}
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.jpg": "${capture}.compressed.jpg, ${capture}.min.jpg",
+    "*.png": "${capture}.compressed.png, ${capture}.min.png",
+    "*.webp": "${capture}.compressed.webp, ${capture}.min.webp"
+  }
 }
